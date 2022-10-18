@@ -1,7 +1,7 @@
 const val BLUE :String = "\u001B[34m"
 const val RESET :String = "\u001B[0m"
 
-public open class Animal constructor(var name:String, var initAnimalClass:String) {
+open class Animal constructor(var name:String, var initAnimalClass:String) {
     //animalClass - рыбы, птицы, млекопитающие и т.д.
     open var legsCount = 4
     var animalClass: AnimalClass
